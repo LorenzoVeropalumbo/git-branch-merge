@@ -58,10 +58,41 @@
       'year' => '1908',
       'campionato' => 'Serie A',
       'poster' => 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-XNCXwAEadABndq7VuzmtUS2qHUtYU-neww&usqp=CAU',
-      'coach' => 'Simone Inzaghiu',
-      'stadium' => 'San Siro”',
+      'coach' => 'Simone Inzaghi',
+      'stadium' => 'San Siro',
       'president'=> 'Stevan Zang',
       'description' => "Il Football Club Internazionale Milano, meglio conosciuto come Internazionale o più semplicemente come Inter, è una società calcistica italiana con sede nella città di Milano."
-    ]
+    ],
+    [
+      'nome' => 'Chelsea',
+      'year' => '1905',
+      'campionato' => 'Premier League',
+      'poster' => 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRmctCOfcFzybvSUIQAv8_mgfPaIJGUG4OABA&usqp=CAU',
+      'coach' => 'Thomas Tuchel',
+      'stadium' => 'Stamford Bridge',
+      'president'=> 'Boehly',
+      'description' => "Il Chelsea Football Club, noto semplicemente come Chelsea, è una società calcistica inglese con sede nella città di Londra, nel borgo di Hammersmith e Fulham, militante nella massima serie del campionato inglese dalla stagione 1989-1990."
+    ],
+    [
+      'nome' => 'Barcelona',
+      'year' => '1899',
+      'campionato' => 'LaLiga',
+      'poster' => 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTLIdWPbI04D-VbUX3iISooa_CrFxGPt9-sXQ&usqp=CAU',
+      'coach' => 'Xavi',
+      'stadium' => ' Camp Nou',
+      'president'=> 'Hans Gamper',
+      'description' => "Il Futbol Club Barcelona, conosciuto semplicemente come Barcelona e in italiano come Barcellona, è una società polisportiva spagnola con sede nella città di Barcellona, nota soprattutto per la sua sezione calcistica."
+    ],
+    [
+      'nome' => 'Napoli',
+      'year' => '1926',
+      'campionato' => 'Serie A',
+      'poster' => 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS1a7Vl13LIxqaN53gWzMbghkHU_MheiTvAVg&usqp=CAU',
+      'coach' => 'Luciano Spalletti',
+      'stadium' => 'Diego Armando Maradona;',
+      'president'=> 'Aurelio De Laurentiis',
+      'description' => "La Società Sportiva Calcio Napoli, meglio nota come Napoli, è una società calcistica italiana con sede nella città di Napoli. Milita in Serie A, la massima serie del campionato italiano. Fondata nel 1926 con il nome di Associazione Calcio Napoli, assunse poi la denominazione di SSC Napoli nel 1964."
+    ],
+
   ];
 ?>
