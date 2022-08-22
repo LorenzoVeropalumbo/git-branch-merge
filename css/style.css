@@ -1,9 +1,14 @@
+/* RESET */
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
+img{
+    display: block;
+    width: 100%;
+}
 header{
     text-align: center;
     height: 80px;
@@ -11,4 +16,37 @@ header{
     line-height: 80px;
     font-size: 20px;
     color: white;
+}
+
+/* CONTAINER */
+.contain{
+    width: 80%;
+    margin: 30px auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* CARD */
+.soccer_card{
+    width: calc((100% / 3) - 30px);
+    margin: 15px;
+    padding: 35px 25px;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: 0 0 18px 5px rgba(0, 0, 0, .1);
+}
+.soccer_card:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+    transition-duration: 500ms;
+}
+.soccer_card img{
+    width: 100px;
+}
+
+h3{
+    font-size: 30px;
+}
+h4{
+    font-size: 23px;
 }
