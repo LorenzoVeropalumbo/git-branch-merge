@@ -30,6 +30,7 @@ var app = new Vue (
     },
     mounted(){
       this.getTeams();
+      this.getLeagues();
     }
   }
 );
