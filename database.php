@@ -4,7 +4,7 @@
     [
       'nome' => 'Ascoli',
       'year' => '1898',
-      'campionato' => 'Serie B',
+      'league' => 'Serie B',
       'poster' => 'https://upload.wikimedia.org/wikipedia/it/thumb/d/df/Ascoli_Calcio_FC_1898.png/1200px-Ascoli_Calcio_FC_1898.png',
       'coach' => 'Cristian Bucchi',
       'stadium' => 'Stadio Cino e Lillo Del Duca',
@@ -14,7 +14,7 @@
     [
       'nome' => 'Empoli',
       'year' => '1920',
-      'campionato' => 'Serie A',
+      'league' => 'Serie A',
       'poster' => 'https://upload.wikimedia.org/wikipedia/it/e/e4/Empoli_logo_2021.svg',
       'coach' => 'Paolo Zanetti',
       'stadium' => 'Stadio Carlo Castellani',
@@ -24,7 +24,7 @@
     [
       'nome' => 'Atalanta',
       'year' => '1907',
-      'campionato' => 'Serie A',
+      'league' => 'Serie A',
       'poster' => 'https://f6t5w7d5.stackpathcdn.com/wp-content/uploads/2019/09/atalanta-opengraph.jpg',
       'coach' => 'Gian Piero  Gasperini',
       'stadium' => 'Gewiss Stadium',
@@ -35,7 +35,7 @@
     [
       'nome' => 'Lecce',
       'year' => '1908',
-      'campionato' => 'Serie A',
+      'league' => 'Serie A',
       'poster' => 'https://it.wikipedia.org/wiki/File:US_Lecce.svg',
       'coach' => 'Marco Baroni',
       'stadium' => 'Stadio Via del Mare “Ettore Giardiniero”',
@@ -46,7 +46,7 @@
     [
       'nome' => 'L.R. Vicenza',
       'year' => '1902',
-      'campionato' => 'Serie C',
+      'league' => 'Serie C',
       'poster' => 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSJ7TJcGHXgf4beDVhka5kWA9UBvPkEBFdtqg&usqp=CAU',
       'coach' => 'Francesco Baldini',
       'stadium' => 'Stadio Romeo Menti, Centro Tecnico Piermario Morosini”',
@@ -56,7 +56,7 @@
     [
       'nome' => 'Inter',
       'year' => '1908',
-      'campionato' => 'Serie A',
+      'league' => 'Serie A',
       'poster' => 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-XNCXwAEadABndq7VuzmtUS2qHUtYU-neww&usqp=CAU',
       'coach' => 'Simone Inzaghi',
       'stadium' => 'San Siro',
@@ -66,7 +66,7 @@
     [
       'nome' => 'Chelsea',
       'year' => '1905',
-      'campionato' => 'Premier League',
+      'league' => 'Premier League',
       'poster' => 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRmctCOfcFzybvSUIQAv8_mgfPaIJGUG4OABA&usqp=CAU',
       'coach' => 'Thomas Tuchel',
       'stadium' => 'Stamford Bridge',
@@ -76,7 +76,7 @@
     [
       'nome' => 'Barcelona',
       'year' => '1899',
-      'campionato' => 'LaLiga',
+      'league' => 'LaLiga',
       'poster' => 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTLIdWPbI04D-VbUX3iISooa_CrFxGPt9-sXQ&usqp=CAU',
       'coach' => 'Xavi',
       'stadium' => ' Camp Nou',
@@ -86,7 +86,7 @@
     [
       'nome' => 'Napoli',
       'year' => '1926',
-      'campionato' => 'Serie A',
+      'league' => 'Serie A',
       'poster' => 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS1a7Vl13LIxqaN53gWzMbghkHU_MheiTvAVg&usqp=CAU',
       'coach' => 'Luciano Spalletti',
       'stadium' => 'Diego Armando Maradona;',
