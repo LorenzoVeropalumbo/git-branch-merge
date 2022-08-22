@@ -4,7 +4,7 @@ var app = new Vue (
     data: {
       teams: [],
       leagues: [],
-      leagueNoDupli: [All,],
+      leagueNoDupli: ['All',],
       value: 'All'
     },
     methods: {
