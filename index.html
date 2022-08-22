@@ -19,22 +19,17 @@
 
       <div class="contain">
 
-        <div class="soccer_card">
+        <div class="soccer_card" v-for="team in teams">
 
           <!-- QUI CI METTIAMO INDIRIZZO POSTER E NOME SQUADRA NELL'ALT -->
-          <img src="" alt="">
+          <img :src="team.poster" :alt="team.nome">
   
           <div>
 
-              <h3>{{NOME SQUADRA}}</h3>
-              <h4>{{NOME STADIO}}</h4>
-              <p>{{ANNO FONDAZIONE}}</p>
-              <p>{{CAMPIONATO}}</p>
-
-              <!-- QUI CI VANNO LE STELLINE -->
-              <div class="stars">
-                <i class="fa-regular fa-star"></i>
-              </div>
+            <h3>{{team.nome}}</h3>
+            <h4>{{team.stadium}}</h4>
+            <p>{{team.year}}</p>
+            <p>{{team.league}}</p>
 
           </div>
         </div>
