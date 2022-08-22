@@ -25,6 +25,11 @@ header{
     display: flex;
     flex-wrap: wrap;
 }
+select{
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 15px;
+}
 
 /* CARD */
 .soccer_card{
