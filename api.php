@@ -12,7 +12,7 @@
             // controllo che siamo uguali le parole quella cercata dall'utente e quella del database
             if ($data['league'] === $_GET['league']) {
                 
-                $filtredArray[] = $data;
+              $filtredArray[] = $data;
             }
         }
 
@@ -20,7 +20,7 @@
 
     } else {
         
-        $data = $database;
+      $data = $database;
     }
 
   header('Content-Type: application/json');
