@@ -9,7 +9,7 @@ var app = new Vue (
     },
     methods: {
       getTeams() {
-        axios.get('http://localhost:8888/git-branch-merge/api.php')
+        axios.get(`http://localhost:8888/git-branch-merge/api.php?league=${this.value}`)
         .then((response) => {
           this.teams = response.data;
           console.log(this.teams);
