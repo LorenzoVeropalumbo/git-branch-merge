@@ -9,11 +9,11 @@
         
         foreach ($database as $data) {
             
-            // controllo che siamo uguali le parole quella cercata dall'utente e quella del database
-            if ($data['league'] === $_GET['league']) {
+          // controllo che siamo uguali le parole quella cercata dall'utente e quella del database
+          if ($data['league'] === $_GET['league']) {
                 
-              $filtredArray[] = $data;
-            }
+            $filtredArray[] = $data;
+          }
         }
 
         $data = $filtredArray;
