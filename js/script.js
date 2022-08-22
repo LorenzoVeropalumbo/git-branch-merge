@@ -4,7 +4,7 @@ var app = new Vue (
     data: {
       teams: [],
       leagues: [],
-      leagueNoDupli: [],
+      leagueNoDupli: [All,],
       value: 'All'
     },
     methods: {
@@ -14,7 +14,19 @@ var app = new Vue (
           this.teams = response.data;
           console.log(this.teams);
         })
-      },       
+      },
+      getLeagues() {
+        axios.get('http://localhost:8888/git-branch-merge/api.php')
+        .then((response) => {
+          this.leagues = response.data;
+          this.leagues = this.leagues.filter(league => {
+            if(!this.leagueNoDupli.includes(league.league)){
+              this.leagueNoDupli.push(league.league)
+              console.log(this.leagueNoDupli);
+            }
+          })
+        })
+      },     
     },
     mounted(){
       this.getTeams();
