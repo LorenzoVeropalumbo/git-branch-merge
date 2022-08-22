@@ -40,8 +40,9 @@ header{
     cursor: pointer;
     transition-duration: 500ms;
 }
-.soccer_card img{
-    width: 100px;
+.contain .soccer_card img{
+    width: 200px;
+    height: 190px;
 }
 
 h3{
