@@ -14,7 +14,17 @@
     <div id="root">
 
       <header>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla impedit officia.
+        <select
+
+        >
+          <option
+            v-for="(league, index) in leagueNoDupli"
+            :key="index"
+            :value=""
+          >
+          {{ team.nome }}
+          </option>
+        </select>
       </header>
 
       <div class="contain">
