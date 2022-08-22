@@ -14,14 +14,8 @@
     <div id="root">
 
       <header>
-        <select>
-          <option
-            v-for="(league, index) in leagueNoDupli"
-            :key="index"
-            :value=""
-          >
-          {{ team.nome }}
-          </option>
+        <select v-model="value" @change="getTeams()">
+          <option v-for="league, index in leagueNoDupli" :value="league">{{league}}</option>
         </select>
       </header>
 
