@@ -12,18 +12,12 @@ var app = new Vue (
           axios.get(`http://localhost:8888/git-branch-merge/api.php?league=${this.value}`)
           .then((response) => {
             this.teams = response.data;
+            console.log("dadwwa");
           }) 
-        },
-        getLeague() {
-          axios.get(`http://localhost:8888/git-branch-merge/api.php`)
-          .then((response) => {
-            console.log(response.data);
-          }) 
-        }        
+        },       
       },
       mounted(){
         this.GetTeams();
-        this.getLeague();
       }
     }
 )
